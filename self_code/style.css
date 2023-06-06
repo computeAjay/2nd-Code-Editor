@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.btn{
+   color: blue;
+}
+.btn:hover{
+    color: white;
+    background-color: goldenrod;
+}
+.main-editor{
+    background-color: #2b2a2a;
+    display: flex;
+    width: 100%;
+    padding: 1rem;
+    box-shadow: 0 2px 3px #000;
+    position: fixed;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    border: 7px solid;
+
+}
+.first{
+    background-color: white;
+    width: 50%;
+    overflow: hidden;
+    overflow-y: auto;
+    white-space: pre;
+    box-shadow: 0 1px 1px black;
+    outline: none;
+    padding: 0.rem;
+    height: 90vh;
+
+
+}
+.second{
+    background-color: whitesmoke;
+    width: 50%;
+    overflow-y: auto;
+    white-space: pre;
+    right: 0;
+    box-shadow: 0 1px 1px rgba(255, 255, 255, 0.979);
+    padding: 0.4rem;
+    height: 90vh;
+    margin-left: 5px;
+}
+.btn {
+    margin-left: 60%;
+    text-decoration: none;
+    color: beige;
+    background-color: rgb(11, 167, 11);
+}
+.clean2{
+    margin-left: 15px;
+    background-color: rgb(5, 5, 5);
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: whitesmoke;
+    
+}
+.clean2 i{
+    font-size: 20px;
+    color: white;
+}
+.head{
+    background-color: #e7e0e0;
+}
+.down1{
+    margin-left: 10px;
+    background-color: #3a3636;
+}
+.down1 i {
+    font-size: 20px;
+    color: wheat;
+}
+
+/* refrence code */
+.ref{
+    padding-left: 10px;
+    font-family:sans-serif;
+    font-weight: bold;
+    color: rgba(37, 37, 58, 0.575);
+
+}
+.ref i{
+    color: rgb(236, 147, 4);
+}
+.ref span {
+    color: rgb(61, 9, 110);
+}
+.live{
+    font-size: large;
+    background-color: rgb(61, 9, 110);
+
+}
+.live i{
+    color: wheat;
+    font-size: 20px;
+}
